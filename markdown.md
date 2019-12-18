@@ -177,7 +177,7 @@ cond=>condition: 登陆成功 Yes or No?
 e=>end: 进入后台
 
 st->op->cond
-cond(yes)->e
+cond(yes)->e    
 cond(no)->op
 ```
 [========]
@@ -191,5 +191,5 @@ China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
 [========]
-
 ### 完成基础语法练习
+[========]
